@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Solar Panel Monitoring Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        h1 { text-align: center; }
+        .graph { margin: 20px; }
+    </style>
+</head>
+<body>
+    <h1>Solar Panel Monitoring Dashboard</h1>
+    <div class="graph">{{ graphs[0]|safe }}</div>
+    <div class="graph">{{ graphs[1]|safe }}</div>
+    <div class="graph">{{ graphs[2]|safe }}</div>
+    <div class="graph">{{ graphs[3]|safe }}</div>
+</body>
+</html>
+
